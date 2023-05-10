@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 import "./images.css";
-import image1 from "../images/laugh/laugh-dinner.jpg";
-import image2 from "../images/laugh/laugh-dip.jpg";
+import image1 from "../images/us/smile.jpg";
 
 function Laugh() {
-  const [images, setImages] = useState([image1, image2]);
+  const [images, setImages] = useState([image1]);
   return (
     <>
       {/* <img src={image1} alt="Image 1" />
