@@ -20,7 +20,7 @@ function Laughs() {
   return (
     <>
       <h6>Laughs</h6>
-
+      <h6>firebase is working</h6>
       {images.map((image) => {
         return <img src={image} />;
       })}
