@@ -14,7 +14,6 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_FIREBASE_APPID
 };
 
-console.log(import.meta.env.VITE_FIREBASE_STORAGE_BUCKET)
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
